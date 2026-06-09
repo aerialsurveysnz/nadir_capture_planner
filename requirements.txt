@@ -1,0 +1,12 @@
+streamlit
+matplotlib
+numpy
+pandas
+shapely
+openpyxl
+python-docx
+fpdf2
+contextily
+pyproj
+folium
+streamlit-folium
