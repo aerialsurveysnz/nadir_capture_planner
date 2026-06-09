@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:globalmapper="https://www.bluemarblegeo.com/globalmapper">
+<Document>
+  <!-- Begin Style Definitions -->
+  <Style id="area1">
+    <LineStyle>
+      <color>FFFF0000</color>
+      <width>4</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>BF000000</color>
+      <fill>0</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Folder>
+    <name>Area Features</name>
+    <description>Area Features</description>
+    <Placemark>
+      <description>Unknown Area Type</description>
+      <styleUrl>#area1</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              171.623738656,-43.490199916,0
+              171.198544366,-43.795431484,0
+              171.290694398,-43.896882935,0
+              171.335957779,-43.988306013,0
+              171.409656431,-44.033751150,0
+              171.478404045,-44.035669206,0
+              171.548745517,-44.012406162,0
+              171.658377588,-43.928905856,0
+              171.737219193,-43.861350306,0
+              171.787408356,-43.864338928,0
+              171.832289484,-43.926178581,0
+              171.916446573,-43.995286645,0
+              172.187053170,-43.902362208,0
+              172.031838209,-43.741389076,0
+              171.863976432,-43.661994998,0
+              171.705032540,-43.541676084,0
+              171.623738656,-43.490199916,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>
